@@ -121,7 +121,7 @@ To test the smart contract functionality, you will need three accounts:
 
 6. **Vendor Interaction:**
    - The owner transfers ownership of the order to the vendor account using `transferOwnership` once the product is shipped.
-   - The vendor can then update the order status as it moves through the supply chain.
+   - The order status will then change automatically to show that the product is 'In transit'.
 
 7. **Final Transfer:**
    - Once the product reaches the customer, the vendor can transfer ownership to the customer.
